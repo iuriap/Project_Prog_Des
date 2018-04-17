@@ -17,14 +17,14 @@ header {
   width: auto;
 }
 
-#logo #socialImg {
+#socialImg {
   height: 30px;
   width: 30px;
   float: left;
 }
 
-#logo #DCSC-logo {
-height: 20%;
+#DCSC-logo {
+height: 80px;
 float: left;
 }
 
