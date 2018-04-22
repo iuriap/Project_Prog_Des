@@ -117,16 +117,40 @@ li {
   float: left;
 }
 
+.etapaText{
+  width: 50%;
+  text-align: justify;
+  float: left;
+}
+
 #homeLogo{
   width: 35%;
   display: block;
   margin: 0 auto;
 }
 
+#etapaImg{
+  width: 48%;
+  display: block;
+  margin: 0 auto;
+  float: right;
+}
+
 #socialImg{
   width: 2%;
 }
+
+#map{
+  width: 100%;
+  height: 50;
+  float: left;
+  margin-left: auto;
+}
+
 .homeContent {
+  display: table-row;
+}
+.etapaContent {
   display: table-row;
 }
 
@@ -217,6 +241,18 @@ article img {
   z-index: 1;
 }
 
+#videoContainer{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%
+}
+.video{
+  position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 .centered {
     position: absolute;
     width: 100%;
@@ -230,5 +266,4 @@ article img {
 
 .cover-img{
   width:100%;
-  top:0;
 }
