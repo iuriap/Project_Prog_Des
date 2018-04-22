@@ -1,16 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900|Ubuntu');
+
 div {
   display: block;
   align-content: center;
 }
 
 header {
-  margin: 0;
-  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+  background-color: rgba(255,255,255,0.85);
 }
+h1 {
+  font-family: 'Ubuntu';
+  font-size: 48px;
+}
+h3 {
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  font-weight: 400;
+}
+
 #header-inner{
-  margin: 0 auto;
-  padding: 0;
-  width: 970px;
+  width: 100%;
+  margin-left: 20;
+  margin-right: 20;
 }
 
 #header-inner #logo {
@@ -25,15 +40,16 @@ header {
 }
 
 #DCSC-logo {
-height: 80px;
 float: left;
+position: relative;
+height: 70px;
+margin-left: 2%;
 }
 
 #top-menu {
-  margin: 0 auto;
-  padding: 0px 0 0;
-  height: 10%;
+  height: 75px;
   float: right;
+  margin-right: 2%;
 }
 
 #top-menu ul {
@@ -41,19 +57,31 @@ float: left;
   padding: 0;
   height: 5%;
   float: left;
+
 }
 
 #top-menu ul li {
   margin: 0;
   float: left;
+
 }
 
 #top-menu ul li a {
   display: block;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
   margin: 0;
-  padding: 8px 8px;
+  padding: 0px 15px;
   color: black;
   text-decoration: none;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+}
+#top-menu ul li a:hover {
+background-color: rgb(65 , 65, 65);
+color: rgb(255,255,255 );
+font-weight: bold;
 }
 
 li {
@@ -102,6 +130,8 @@ article img {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  width: 50px;
+
 }
 
 /* Links inside the dropdown */
@@ -133,16 +163,21 @@ article img {
 
 .container{
   position: relative;
-  text-align: center;
+  z-index: 1;
 }
 
 .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    width: 100%;
+    top: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
 }
 
 
 .cover-img{
   width:100%;
+  top:0;
 }
