@@ -1,5 +1,6 @@
 div {
   display: block;
+  align-content: center;
 }
 
 header {
@@ -76,6 +77,22 @@ li {
   display: inline-block;
 }
 
+article img {
+  height: 150px;
+  margin: 2px;
+}
+
+.parceiro {
+  float: left;
+  height: 150px;
+  margin: 2px;
+}
+
+.gallery::after {
+  content: "";
+  clear: both;
+  display: table
+}
 /* Dropdown Content (Hidden by Default) */
 
 .dropdown-content {
