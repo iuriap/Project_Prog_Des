@@ -19,6 +19,7 @@ header {
 h1 {
   font-family: 'Ubuntu';
   font-size: 48px;
+  text-transform: uppercase;
 }
 h2 {
   font-family: 'Ubuntu';
