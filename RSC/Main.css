@@ -13,34 +13,37 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 11%;
   z-index: 5;
   background-color: rgba(255,255,255,0.85);
 }
 h1 {
   font-family: 'Ubuntu';
-  font-size: 48px;
+  font-size: 5vw;
   text-transform: uppercase;
 }
 h2 {
   font-family: 'Ubuntu';
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 400;
 }
 h3 {
   font-family: 'Ubuntu';
-  font-size: 30px;
+  font-size: 3vw;
   font-weight: bold;
   color: rgb(50, 50, 50);
+  margin: inherit;
 }
 
 p {
   font-family: 'Ubuntu';
-  font-size: 16px;
+  font-size: 1.2vw;
   color: rgb(50, 50, 50);
+  margin: 15px 2px;
 }
 #boldText {
   font-family: 'Ubuntu';
-  font-size: 16px;
+  font-size: 1.2vw;
   font-weight: bold;
   color: rgb(75, 75, 75);
 }
@@ -70,7 +73,7 @@ margin-left: 2%;
 }
 
 #top-menu {
-  height: 75px;
+  height: 3%;
   float: right;
   margin-right: 2%;
 }
@@ -92,14 +95,14 @@ margin-left: 2%;
 #top-menu ul li a {
   display: block;
   line-height: 50px;
-  height: 50px;
+  height: auto;
   text-align: center;
   margin: 0;
   padding: 0px 15px;
   color: black;
   text-decoration: none;
   font-family: 'Ubuntu';
-  font-size: 16px;
+  font-size: 1.2vw;
 }
 #top-menu ul li a:hover {
 background-color: rgb(65 , 65, 65);
@@ -159,7 +162,7 @@ li {
   background-color: #4CAF50;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 16vw;
   border: none;
   cursor: pointer;
 }
@@ -179,10 +182,11 @@ article img {
 .parceiro {
   float:left;
   width: 10%;
-  margin: 2px;
   margin: 0 auto;
   padding: auto;
 }
+
+
 
 .gallery::after {
   content: "";
@@ -192,6 +196,7 @@ article img {
 .gallery {
   width: 100%;
   vertical-align: middle;
+  margin:auto;
 }
 
 .gallery_node {
@@ -224,7 +229,13 @@ article img {
 .dropdown-content a:hover {
   background-color: #f1f1f1
 }
+.totalEtapaContainer{
+  display: table-row;
+  width:100%;
+}
+.etapaContainer{
 
+}
 /* Show the dropdown menu on hover */
 
 .dropdown:hover .dropdown-content {
@@ -272,9 +283,31 @@ article img {
 /* Etapas */
 
 .etapas{
-
+  vertical-align: middle;
+  float:left;
+  width: 47%;
+  height: 40%;
+  text-align: center;
+  border: 1px double black;
+  padding: auto;
+  margin: 1.2%;
 }
 
-.etapas #imgs {
-  width:
+.etapasContainer {
+  margin-top: 5%;
+  width:100%;
+}
+
+.etapas img {
+  position: relative;
+    width: 99%;
+    height: 100%;
+    margin: 2px;
+}
+
+#dataText {
+  background-color: rgb(60, 60, 60);
+  color: white;
+  font-size: 1.5vw;
+  margin:0;
 }
